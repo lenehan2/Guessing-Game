@@ -15,28 +15,47 @@
     <div id = "wrapper">
       <h1>Guessing Game</h1>
     </div>
+     <div class = "states">
+        <div class = "lose">
+          <p>You Lose!</p>
+          <p class = 'answer'></p>
+          <img src="sadface.png" alt="That's too bad">
+          <button id = "Again" class="btn -btn-default" value="Restart">Play Again?</button>
+
+        </div>
+        <div class = "win">
+          <p>You Win!</p>
+           <img src="happyface.jpg" alt="That's too bad">
+          <button id = "Again" class="btn -btn-default" value="Restart">Play Again?</button>
+        </div>
+      </div>
       <div class = "main">
         <h3>Guesses remaining</h3>
-        <div id = "circle">
+        <div id = "circle1">
         </div>
-        <div id = "circle">
+        <div id = "circle2">
         </div>
-        <div id = "circle">
+        <div id = "circle3">
         </div>
-        <div id = "circle">
+        <div id = "circle4">
         </div>
-        <div id = "circle">
+        <div id = "circle5">
         </div>
         <div id = "textbox">
-          <input class = "mytext" placeholder="Please input a number"/> 
+          <input class = "mytext" placeholder="Press Play to Continue!"/> 
         </div>
+        <button id = "Play" class="btn -btn-default" value="Play">Play</button>
         <button id = "Submit" type="Submit" class="btn -btn-default" value="Submit">Submit</button>
+        <p class = "status" >Please Guess a number between 1 and 100!</p>
+        <p class = "closeness"></p>
+        <o class = "previous"><p>
       </div>
       <div class = "buttons">
-        <button id = "Play" class="btn -btn-default" value="Play">Play</button>
+        <button id = "Restart" class="btn -btn-default" value="Restart">Restart</button>
         <div class = "divider">
         </div>
-        <button id = "Give up?" class="btn -btn-default" value="Give up?">Give up?</button>
+
+        <button id = "giveUp" class="btn -btn-default" value="Give up?">Give up?</button>
         <div class = "divider">
         </div>
         <button id = "Hint" class="btn -btn-default" value="Hint">Hint</button>
@@ -49,7 +68,8 @@
 
 
      
-    
+    <script src="jquery.min.js"></script>
+    <script src ="app2.js"></script>
 
 
   </body>

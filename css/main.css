@@ -1,15 +1,16 @@
 body {
 	background-image: url("438354.jpg");
-	background-size:   cover;               
+	background-size: cover;               
     background-repeat: no-repeat;
-    background-position: center center
+    background-position: center center;
+
 }
 
 h3 {
 	margin-top:20px;
 	font-size: 2em;
 }
-*/
+
 #textbox {
 	margin: auto;
     width: 60%;
@@ -18,10 +19,10 @@ h3 {
 }
 
 #submit{
-	margin-top: 20px;
+	margin: 20px;
 }
 
-#circle {
+#circle1 {
 	width: 60px;
 	height: 60px;
 	background: #00FF00;
@@ -31,6 +32,49 @@ h3 {
 	margin: auto;
 	display: inline-block;
 }
+
+#circle2 {
+	width: 60px;
+	height: 60px;
+	background: #00FF00;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	margin: auto;
+	display: inline-block;
+}
+#circle3 {
+	width: 60px;
+	height: 60px;
+	background: #00FF00;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	margin: auto;
+	display: inline-block;
+}
+#circle4 {
+	width: 60px;
+	height: 60px;
+	background: #00FF00;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	margin: auto;
+	display: inline-block;
+}
+#circle5 {
+	width: 60px;
+	height: 60px;
+	background: #00FF00;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	margin: auto;
+	display: inline-block;
+}
+
+
 
 #rectangle {
     width: 300px;
@@ -42,21 +86,52 @@ h3 {
 }
 
 .mytext {
-  font-size: 12pt;
-  height: 100px;
-  width: 250px;
+	font-size: 12pt;
+	height: 100px;
+	width: 250px;
 }
 
 #wrapper {
     margin: auto;
     width: 60%;
     padding: 10px;
-    background-color: background-color:rgba(255,255,255,255.5);
+    
 
 }
 
+.lose {
+	background-color:rgba(32,166,215,0.7);
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	padding-bottom:20px;
+	padding-top: 10px;
+	border-radius: 25px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	min-width: 40;
+	
+}
+
+
+.win {
+	background-color:rgba(32,166,215,0.7);
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	padding-bottom:20px;
+	padding-top: 10px;
+	border-radius: 25px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	min-width: 40;
+	max-width: 400px;
+}
+
 .main {
-	background-color:rgba(255,0,0,0.5);
+	background-color:rgba(32,166,215,0.7);
 	max-width: 470px;
 	margin: 0 auto;
 	padding-bottom:20px;
@@ -70,7 +145,7 @@ h3 {
 	margin: 0 auto;
 	margin-top: 10px;
 	padding: 20px;
-	background-color:rgba(255,0,0,0.5);
+	background-color:rgba(32,166,215,0.7);
 	max-width: 550px;
 	border-radius: 25px;
 
@@ -83,11 +158,41 @@ h3 {
 }
 
 .test {
-	background-color:rgba(255,0,0,0.5);
+	background-color:rgba(32,166,215,0.7);
 	max-width: 60px;
 	margin: 0 auto;
 	padding-bottom:20px;
 	padding-top: 10px;
 	border-radius: 25px;
 }
+
+.status {
+
+}
+
+.states p{
+	font-size: 3em;
+}
+
+.states img{
+	
+	max-width: 50%;
+	max-height: 50%;
+	margin: 0 auto;
+	display: table;
+	}
+
+#Again {
+
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	height: 20%;
+	margin-bottom: 5%;
+	margin-top: 10px;
+}
+
+
+
+
 
